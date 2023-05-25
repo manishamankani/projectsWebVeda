@@ -1,0 +1,33 @@
+
+<div class="container-fluid">
+  <div class="row d-flex align-items-center justify-content-center vh-100">
+    <div class="col-md-4">
+      <div class="card text-left py-5 px-4">
+        <div id="result-container"></div>
+        <h4>Hello! let's get started</h4>
+        <h5>Sign in to continue.</h5>
+        <form (ngSubmit)="onSubmit()">
+          <div class="form-group mt-3">
+           
+            <input class="form-control p-3" placeholder="Email" type="email" id="email" name="email" [(ngModel)]="email" required>
+          </div>
+          <div class="form-group mt-3">
+            
+            <input class="form-control p-3" placeholder="Password" type="password" id="password" name="password" [(ngModel)]="password" required>
+          </div>
+          <div class="form-group mt-3">
+            <label for="keep-signed-in" class="mx-2">Keep me signed in:</label>
+            <input class="form-check-input" type="checkbox" id="keep-signed-in" name="keep-signed-in" [(ngModel)]="keepSignedIn">
+          </div>
+          <div class="mt-3">
+            <button class="btn btn-success rounded" type="submit">Login</button>
+          </div>
+         
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  

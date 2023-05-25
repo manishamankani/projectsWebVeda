@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "./app/page/page.component.scss";
+@import "./app/header/header.component.scss";
+
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-weight: normal;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.no-underline{
+  text-decoration: none;
+}
+.d-inline{
+  display: inline;
+}
+//header-css
+
+.p-menubar {
+    padding: 10px 20px !important;
+    background-color: #000000 !important;
+    border-radius: 0 !important;
+    
+  
+}  
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: #ffffff !important
+  ;
+} 
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: transparent !important;
+} 
+  .sidebar{
+    border-right: 1px solid #dee2e6;
+    
+  }
+  .footer ul {
+    display: list-item !important;
+  
+  }
+  .blue-bg{
+    background-color: #0a66c2;
+  }
+    .footer {
+   
+    position: relative !important;
+
+  }
+  .featured{
+    background-color: #edededde;
+  }
+  //crousel text
+ 
